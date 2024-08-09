@@ -5,7 +5,7 @@ import './formulario.css';
 
 function Formulario() {
 
-    const logo = "/src/assets/fomulario/logo-contorno.png";
+    const logo = "/assets/fomulario/logo-contorno.png";
 
     // Alert de mensagem enviada quando enviar o formulario
     const handleSubmit = (event) => {

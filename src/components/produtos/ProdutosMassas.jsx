@@ -14,7 +14,7 @@ const menuMassas = [
         description: 'Com carne moída e molho de tomate.',
         price: 12.00,
         units: 15,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/macarrao-bolonhesa.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/macarrao-bolonhesa.png",
       },
       {
         id: 14,
@@ -22,7 +22,7 @@ const menuMassas = [
         description: 'Macarrão alho e óleo, servido com alho e óleo.',
         price: 10.00,
         units: 18,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/macarrao-alho.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/macarrao-alho.png",
       },
       {
         id: 15,
@@ -30,7 +30,7 @@ const menuMassas = [
         description: 'Ravioli de espinafre, servido com molho de queijo.',
         price: 15.00,
         units: 12,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/ravioli-espinafre.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/ravioli-espinafre.png",
       },
       {
         id: 16,
@@ -38,7 +38,7 @@ const menuMassas = [
         description: 'Ravioli com gorgonzola, servido com molho de queijo.',
         price: 18.00,
         units: 10,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/ravioli-gorgonzola.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/ravioli-gorgonzola.png",
       },
       {
         id: 17,
@@ -46,7 +46,7 @@ const menuMassas = [
         description: 'Nhoque de carne, servido com molho de tomate.',
         price: 12.00,
         units: 15,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/nhoque-carne.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/nhoque-carne.png",
       },
       {
         id: 18,
@@ -54,7 +54,7 @@ const menuMassas = [
         description: 'Servido com o delicioso molho de queijo da casa.',
         price: 10.00,
         units: 18,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/nhoque-puro.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/nhoque-puro.png",
       },
 ];
 

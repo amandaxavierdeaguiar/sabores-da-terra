@@ -7,7 +7,7 @@ function Footer(){
     //Imagem Background
     const backgroundFooter = 'src/assets/background/footer1.png'
     //Imagem Logo
-    const logo = "/src/assets/logo.png";
+    const logo = "/assets/logo.png";
 
     // Funcao para ler data
     /*&copy; {new Date().getFullYear()} Sabores da Terra. All rights reserved.*/

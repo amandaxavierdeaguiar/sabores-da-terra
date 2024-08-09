@@ -2,8 +2,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
 import './menuPrincipal.css'
-import Header from "/src/components/header/Header"
-import Footer from "/src/components/footer/Footer"
+import Header from "/components/header/Header"
+import Footer from "/components/footer/Footer"
 
 // pegar fragmento da pagina com produtos
 import { Link } from 'react-router-dom';
@@ -11,12 +11,12 @@ import { Link } from 'react-router-dom';
 function MenuPrincipal(){
     // CODIGO HTML RODRIGO
     
-    const massas = "/src/assets/menuprincipal/massas.png";
-    const pratoPrincipal = "/src/assets/menuprincipal/pratoPrincipal.png";
-    const bebidas = "/src/assets/menuprincipal/bebidas.png";
-    const sobremesa = "/src/assets/menuprincipal/quindim.png";
-    const snacks = "/src/assets/menuprincipal/salgados.png";
-    const bandeira = "/src/assets/menuprincipal/bandeira1.png";
+    const massas = "/assets/menuprincipal/massas.png";
+    const pratoPrincipal = "/assets/menuprincipal/pratoPrincipal.png";
+    const bebidas = "/assets/menuprincipal/bebidas.png";
+    const sobremesa = "/assets/menuprincipal/quindim.png";
+    const snacks = "/assets/menuprincipal/salgados.png";
+    const bandeira = "/assets/menuprincipal/bandeira1.png";
 
     return(
         <body className='bodyprincipal'>

@@ -13,7 +13,7 @@ const menuPrincipal = [
         name: 'Filé de Frango à Parmegiana',
         description: 'servido com arroz e legumes.',
         price: 18.00,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/parmegiana.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/parmegiana.png",
       },
       {
         id: 20,
@@ -21,7 +21,7 @@ const menuPrincipal = [
         description: 'Bife de novilho macio, servido com arroz e legumes.',
         price: 20.00,
         units: 8,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/bife-novilho.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/bife-novilho.png",
       },
       {
         id: 21,
@@ -29,7 +29,7 @@ const menuPrincipal = [
         description: 'Carne moída com couve, servido com arroz e legumes.',
         price: 15.00,
         units: 12,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/carne-couve.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/carne-couve.png",
       },
       {
         id: 22,
@@ -37,7 +37,7 @@ const menuPrincipal = [
         description: 'Strogonoff de carne, servido com arroz e legumes.',
         price: 18.00,
         units: 10,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/strogonoff.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/strogonoff.png",
       },
       {
         id: 23,
@@ -45,7 +45,7 @@ const menuPrincipal = [
         description: 'Carne de patinho, servido com batata frita e salada.',
         price: 12.00,
         units: 15,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/hamburguer-carne.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/hamburguer-carne.png",
       },
       {
         id: 24,
@@ -53,7 +53,7 @@ const menuPrincipal = [
         description: 'Peito de frango, servido com batata frita e salada.',
         price: 10.00,
         units: 18,
-        imageUrl: "/src/assets/produtos/pratoPrincipal/hamburguer-frango.png",
+        imageUrl: "/assets/produtos/pratoPrincipal/hamburguer-frango.png",
       },
 ];
 

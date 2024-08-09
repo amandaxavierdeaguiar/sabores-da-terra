@@ -1,11 +1,11 @@
 import {Container} from 'react-bootstrap'
 import './sobre.css'
-import Reserva from '/src/components/formulario/Reserva.jsx'
+import Reserva from '/components/formulario/Reserva.jsx'
 
 function Sobre(){
 
     // foto Restaurante e proprietario
-    const restauranteProprietario = "/src/assets/fotoConjunto.png";
+    const restauranteProprietario = "/assets/fotoConjunto.png";
 
     return (
         <Container className='container'>

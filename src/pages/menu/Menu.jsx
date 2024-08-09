@@ -2,14 +2,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Aqui importamos os componentes das páginas
-import Header from "/src/components/header/Header"
-import ProdutosSalgados from "/src/components/produtos/ProdutosSalgados"
-import ProdutosPratoPrincipal from "/src/components/produtos/ProdutosPratoPrincipal"
-import ProdutosMassas from "/src/components/produtos/ProdutosMassas"
-import ProdutosSobremesa from "/src/components/produtos/ProdutosSobremesa"
-import Bebidas from "/src/components/produtos/ProdutosBebidas"
+import Header from "/components/header/Header"
+import ProdutosSalgados from "/components/produtos/ProdutosSalgados"
+import ProdutosPratoPrincipal from "/components/produtos/ProdutosPratoPrincipal"
+import ProdutosMassas from "/components/produtos/ProdutosMassas"
+import ProdutosSobremesa from "/components/produtos/ProdutosSobremesa"
+import Bebidas from "/components/produtos/ProdutosBebidas"
 
-import Footer from "/src/components/footer/Footer"
+import Footer from "/components/footer/Footer"
 
 //IMPORTAR PARA USAR FRAGMENTO DA PAGINA
 import { useEffect } from 'react';
