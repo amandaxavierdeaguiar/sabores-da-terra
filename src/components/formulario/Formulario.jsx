@@ -3,9 +3,13 @@ import * as Icon from 'react-bootstrap-icons';
 
 import './formulario.css';
 
+import backgroundContato from '../../assets/background/contato.png';
+
+import logo  from '../../assets/fomulario/logo-contorno.png';
+
 function Formulario() {
 
-    const logo = "/assets/fomulario/logo-contorno.png";
+    
 
     // Alert de mensagem enviada quando enviar o formulario
     const handleSubmit = (event) => {
@@ -34,7 +38,10 @@ function Formulario() {
         <Container className="d-flex justify-content-center align-items-center ">
             <div className="row w-100 rounded p-5 ">
                 <h1 className="title-produtos" style={{paddingTop: '70px'}}>Contate-nos</h1> 
-                <Col md={6} className="d-flex justify-content-center align-items-center background">
+                <Col md={6} className="d-flex justify-content-center align-items-center background" style={{ backgroundImage: `url(${backgroundContato})`, 
+                backgroundSize: 'cover', 
+                backgroundRepeat: 'no-repeat',   
+                backgroundPosition: 'center',}}>
                     <Row className="d-flex justify-content-center align-items-center" style={{padding: '10px'}}>
                         <img src={logo} className="logo" style={{ maxWidth: '70%', maxHeight: '70%' }} />
                         <div className='contatoBackground bg-light'>
