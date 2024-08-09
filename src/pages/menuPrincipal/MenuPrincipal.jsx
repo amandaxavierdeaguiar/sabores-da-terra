@@ -6,7 +6,7 @@ import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
 
 //IMPORTAR FOTOS 
-import massas from "../../assets/menuprincipal/massas.png";
+import massas from "../../assets/menuPrincipal/massas.png";
 import pratoPrincipal from "../../assets/menuprincipal/pratoPrincipal.png";
 import bebidas from "../../assets/menuprincipal/bebidas.png";
 import sobremesa from "../../assets/menuprincipal/quindim.png";
