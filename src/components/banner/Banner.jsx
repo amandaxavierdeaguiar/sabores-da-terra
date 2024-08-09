@@ -1,10 +1,13 @@
 import {Carousel, Image} from 'react-bootstrap'
 import './banner.css'
+import banner1 from 'src/assets/banner/banner1.png';
+import banner2 from 'src/assets/banner/banner2.png';
+import banner3 from 'src/assets/banner/banner3.png';
 
 function Banner(){
-    const banner1 = 'src/assets/banner/banner1.png'
+    /*const banner1 = 'src/assets/banner/banner1.png'
     const banner2 = 'src/assets/banner/banner2.png'
-    const banner3 = 'src/assets/banner/banner3.png'
+    const banner3 = 'src/assets/banner/banner3.png'*/
 
     return(
     <Carousel interval={6000}>
