@@ -4,7 +4,7 @@ import {Container} from 'react-bootstrap';
 import './menuPrincipal.css'
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-
+import background from '../../assets/menuprincipal/bandeira3.png'
 
 //IMPORTAR FOTOS 
 import massas from "../../assets/menuPrincipal/massas.png";
@@ -21,7 +21,11 @@ import { Link } from 'react-router-dom';
 function MenuPrincipal(){
 
     return(
-        <body className='bodyprincipal'>
+        <body className='bodyprincipal' style={{ backgroundImage: `url(${background})`, 
+        backgroundSize: 'cover', 
+        backgroundRepeat: 'no-repeat',   
+        backgroundPosition: 'center', 
+        overflowY: 'auto', height: 'auto'}}>
             <Header/>
             <h1 className="title-produtos" style={{paddingTop: '150px'}}>Comidas Regionais<img src={bandeira} alt="bandeira Brasil" className="bandeirinha" style={{height: '50px'}}/></h1> 
             <Container className='menu' >            
