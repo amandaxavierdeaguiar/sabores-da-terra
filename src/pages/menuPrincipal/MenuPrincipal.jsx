@@ -4,15 +4,15 @@ import {Container} from 'react-bootstrap';
 import './menuPrincipal.css'
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import background from '../../assets/menuprincipal/bandeira3.png'
+import background from '../../assets/menuPrincipal/bandeira3.png';
 
 //IMPORTAR FOTOS 
 import massas from "../../assets/menuPrincipal/massas.png";
-import pratoPrincipal from "../../assets/menuprincipal/massas.png";
-import bebidas from "../../assets/menuprincipal/bebidas.png";
-import sobremesa from "../../assets/menuprincipal/quindim.png";
-import snacks from "../../assets/menuprincipal/salgados.png";
-import bandeira from "../../assets/menuprincipal/bandeira1.png";
+import pratoPrincipal from "../../assets/menuPrincipal/massas.png";
+import bebidas from "../../assets/menuPrincipal/bebidas.png";
+import sobremesa from "../../assets/menuPrincipal/quindim.png";
+import snacks from "../../assets/menuPrincipal/salgados.png";
+import bandeira from "../../assets/menuPrincipal/bandeira1.png";
 
 
 // pegar fragmento da pagina com produtos
@@ -24,8 +24,7 @@ function MenuPrincipal(){
         <body className='bodyprincipal' style={{ backgroundImage: `url(${background})`, 
         backgroundSize: 'cover', 
         backgroundRepeat: 'no-repeat',   
-        backgroundPosition: 'center', 
-        overflowY: 'auto', height: 'auto'}}>
+        backgroundPosition: 'center'}}>
             <Header/>
             <h1 className="title-produtos" style={{paddingTop: '150px'}}>Comidas Regionais<img src={bandeira} alt="bandeira Brasil" className="bandeirinha" style={{height: '50px'}}/></h1> 
             <Container className='menu' >            
