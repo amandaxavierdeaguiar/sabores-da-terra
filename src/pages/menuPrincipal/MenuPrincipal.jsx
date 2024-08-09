@@ -2,12 +2,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
 import './menuPrincipal.css'
-import Header from "../../components/header/Header"
-import Footer from "../../components/footer/Footer"
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/Footer";
+
 
 //IMPORTAR FOTOS 
 import massas from "../../assets/menuPrincipal/massas.png";
-import pratoPrincipal from "../../assets/menuprincipal/pratoPrincipal.png";
+import pratoPrincipal from "../../assets/menuprincipal/massas.png";
 import bebidas from "../../assets/menuprincipal/bebidas.png";
 import sobremesa from "../../assets/menuprincipal/quindim.png";
 import snacks from "../../assets/menuprincipal/salgados.png";
