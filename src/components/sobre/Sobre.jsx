@@ -1,7 +1,7 @@
-import {Container, Image} from 'react-bootstrap'
+import {Container} from 'react-bootstrap'
 import './sobre.css'
 import Reserva from '../formulario/Reserva';
-import restauranteProprietario from '../../assets/fotoConjunto.png';
+import proprietario from '../../assets/fotoConjunto.png';
 
 function Sobre(){
 
@@ -11,7 +11,7 @@ function Sobre(){
     return (
         <Container className='container'>
             <div className="image-container">
-                <Image src={restauranteProprietario} alt="Restaurant image"/>
+                <img src={proprietario} alt="Restaurant image"/>
             </div>
             <div className="content">
                 <h1>Sobre nós</h1>
