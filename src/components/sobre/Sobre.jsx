@@ -1,7 +1,7 @@
 import {Container} from 'react-bootstrap'
 import './sobre.css'
 import Reserva from '../formulario/Reserva';
-import restauranteProprietario from "../../assets/fotoConjunto.png";
+import restauranteProprietario from '../../assets/fotoConjunto.png';
 
 function Sobre(){
 
