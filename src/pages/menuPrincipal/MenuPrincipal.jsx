@@ -6,6 +6,12 @@ import Header from "../../components/header/Header"
 import Footer from "../../components/footer/Footer"
 
 //IMPORTAR FOTOS 
+import massas from "../../assets/menuprincipal/massas.png";
+import pratoPrincipal from "../../assets/menuprincipal/pratoPrincipal.png";
+import bebidas from "../../assets/menuprincipal/bebidas.png";
+import sobremesa from "../../assets/menuprincipal/quindim.png";
+import snacks from "../../assets/menuprincipal/salgados.png";
+import bandeira from "../../assets/menuprincipal/bandeira1.png";
 
 
 // pegar fragmento da pagina com produtos
@@ -14,12 +20,7 @@ import { Link } from 'react-router-dom';
 function MenuPrincipal(){
     // CODIGO HTML RODRIGO
     
-    const massas = "/assets/menuprincipal/massas.png";
-    const pratoPrincipal = "/assets/menuprincipal/pratoPrincipal.png";
-    const bebidas = "/assets/menuprincipal/bebidas.png";
-    const sobremesa = "/assets/menuprincipal/quindim.png";
-    const snacks = "/assets/menuprincipal/salgados.png";
-    const bandeira = "/assets/menuprincipal/bandeira1.png";
+    
 
     return(
         <body className='bodyprincipal'>
