@@ -1,7 +1,8 @@
 import {Container, Image} from 'react-bootstrap'
 import './sobre.css'
 import Reserva from '../formulario/Reserva';
-import proprietario from '../../assets/fotoConjunto.png';
+//import proprietario from '../../assets/fotoConjunto.png';
+import banner1 from '../../assets/banner/banner1.png';
 
 function Sobre(){
 
@@ -10,9 +11,14 @@ function Sobre(){
 
     return (
         <Container className='container'>
-            <div className="image-container">
-                <Image src={proprietario}alt="Restaurant image"/>
-            </div>
+            {/*<div className="image-container">
+                <Image src={proprietario} alt="Restaurant image"/>
+            </div>*/}
+                <Image src={banner1} className='bannerImage'  alt="Prato com arroz, feijao e bife" fluid style={{
+            filter: 'brightness(0.5)',
+            height: '100vh', // altura da imagem igual a altura da tela
+            objectFit: 'cover' // imagem cobre toda a área
+            }}/>
             <div className="content">
                 <h1>Sobre nós</h1>
                 <h2>A combinação perfeita entre sabores e ritmos brasileiros.</h2>
