@@ -8,7 +8,7 @@ import background from '../../assets/menuPrincipal/bandeira3.png';
 
 //IMPORTAR FOTOS 
 import massas from "../../assets/menuPrincipal/massas.png";
-import pratoPrincipal from "../../assets/menuPrincipal/massas.png";
+import pratoPrincipal from "../../assets/menuPrincipal/pratoPrincipal.png";
 import bebidas from "../../assets/menuPrincipal/bebidas.png";
 import sobremesa from "../../assets/menuPrincipal/quindim.png";
 import snacks from "../../assets/menuPrincipal/salgados.png";
