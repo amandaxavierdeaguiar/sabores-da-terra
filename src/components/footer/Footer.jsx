@@ -1,13 +1,15 @@
 import { Row, Col, Container, Image } from 'react-bootstrap';
 // Importacao da utilização do ICON
 import * as Icon from 'react-bootstrap-icons';
+import backgroundFooter from '../../assets/background/footer1.png'
+import logo from "../../assets/logo.png";
 
 function Footer(){
 
     //Imagem Background
-    const backgroundFooter = 'src/assets/background/footer1.png'
+    /*const backgroundFooter = 'src/assets/background/footer1.png'*/
     //Imagem Logo
-    const logo = "/assets/logo.png";
+    /*const logo = "/assets/logo.png";*/
 
     // Funcao para ler data
     /*&copy; {new Date().getFullYear()} Sabores da Terra. All rights reserved.*/
