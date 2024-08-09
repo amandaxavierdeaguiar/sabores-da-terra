@@ -2,8 +2,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container} from 'react-bootstrap';
 import './menuPrincipal.css'
-import Header from "/components/header/Header"
-import Footer from "/components/footer/Footer"
+import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
+
+//IMPORTAR FOTOS 
+
 
 // pegar fragmento da pagina com produtos
 import { Link } from 'react-router-dom';

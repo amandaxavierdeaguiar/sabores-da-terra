@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Header from "/components/header/Header"
-import Footer from "/components/footer/Footer"
+import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
 // IMPORTANDO COMPONENTS DA PAGE
-import Formulario from "/components/formulario/Formulario"
-import Mapa from "/components/mapa/Mapa"
+import Formulario from "../../components/formulario/Formulario"
+import Mapa from "../../components/mapa/Mapa"
 
 function Contato(){
     return(

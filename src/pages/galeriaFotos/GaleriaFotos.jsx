@@ -1,16 +1,16 @@
 //Biblioteca essencial para o Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "/components/header/Header"
-import Footer from "/components/footer/Footer"
+import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
 import './galeriaFotos.css'
-import Reserva from '/components/formulario/Reserva.jsx'
+import Reserva from '../../components/formulario/Reserva.jsx'
 
 function GaleriaFotos() {
-    const feijoada = '/assets/galeria/feijoada-brasileira.png';
-    const festivalCoxinha = '/assets/galeria/festival-coxinha.png';
-    const restaurante = '/assets/galeria/restaurant.png';
-    const restaurante2 = '/assets/galeria/restaurant2.png';
-    const restaurante3 = '/assets/galeria/restaurant3.png';
+    const feijoada = './assets/galeria/feijoada-brasileira.png';
+    const festivalCoxinha = './assets/galeria/festival-coxinha.png';
+    const restaurante = './assets/galeria/restaurant.png';
+    const restaurante2 = './assets/galeria/restaurant2.png';
+    const restaurante3 = './assets/galeria/restaurant3.png';
 
     return(
         <div className="galeria-container">
