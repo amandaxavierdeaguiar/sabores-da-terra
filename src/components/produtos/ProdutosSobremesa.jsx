@@ -4,6 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './produtos.css'
 import * as Icon from 'react-bootstrap-icons';
 import { useCart } from 'react-use-cart';
+// FOTO SOBREMESA
+import imgBolo from '../../assets/produtos/sobremesa/bolo-chocolate-pote.png';
+import imgCanjica from '../../assets/produtos/sobremesa/canjica.png';
+import imgArrozDoce from '../../assets/produtos/sobremesa/arroz-doce.png';
+import imgPudim from '../../assets/produtos/sobremesa/pudim.png';
+import imgBrigadeiros from '../../assets/produtos/sobremesa/brigadeiros.png';
+import imgBeijinho from '../../assets/produtos/sobremesa/beijinho.png';
+import imgQuindim from '../../assets/produtos/sobremesa/quindim.png';
+import imgCocada from '../../assets/produtos/sobremesa/cocada.png';
+import imgPacoca from '../../assets/produtos/sobremesa/pacoca.png';
 
 // MENU DE SOBREMESA
 const sobremesa = [
@@ -13,7 +23,7 @@ const sobremesa = [
         description: 'Bolo de chocolate cremoso e rico, servido em um pote.',
         price: 8.00,
         units: 10,
-        imageUrl: "../../assets/produtos/sobremesa/bolo-chocolate-pote.png",
+        imageUrl: imgBolo,
       },
       {
         id: 32,
@@ -21,7 +31,7 @@ const sobremesa = [
         description: 'Doce típico brasileiro feito com milho, leite e açúcar.',
         price: 6.00,
         units: 15,
-        imageUrl: "../../assets/produtos/sobremesa/canjica.png",
+        imageUrl: imgCanjica,
       },
       {
         id: 33,
@@ -29,7 +39,7 @@ const sobremesa = [
         description: 'Arroz cozido com leite, açúcar e canela, servido quente.',
         price: 5.00,
         units: 20,
-        imageUrl: "../../assets/produtos/sobremesa/arroz-doce.png",
+        imageUrl: imgArrozDoce,
       },
       {
         id: 34,
@@ -37,7 +47,7 @@ const sobremesa = [
         description: 'Pudim cremoso e rico, feito com leite condensado, açúcar e ovos.',
         price: 7.00,
         units: 12,
-        imageUrl: "../../assets/produtos/sobremesa/pudim.png",
+        imageUrl: imgPudim,
       },
       {
         id: 35,
@@ -45,7 +55,7 @@ const sobremesa = [
         description: 'Docinhos de chocolate e leite condensado com chocolate granulado.',
         price: 10.00,
         units: 8,
-        imageUrl: "../../assets/produtos/sobremesa/brigadeiros.png",
+        imageUrl: imgBrigadeiros,
       },
       {
         id: 36,
@@ -53,7 +63,7 @@ const sobremesa = [
         description: 'Docinhos de coco e leite condensado, enrolados em coco ralado.',
         price: 9.00,
         units: 10,
-        imageUrl: "../../assets/produtos/sobremesa/beijinho.png",
+        imageUrl: imgBeijinho,
       },
       {
         id: 37,
@@ -61,7 +71,7 @@ const sobremesa = [
         description: 'Docinhos de coco e ovos e polvilhados com açúcar e com crosta de coco queimado.',
         price: 8.00,
         units: 12,
-        imageUrl: "../../assets/produtos/sobremesa/quindim.png",
+        imageUrl: imgQuindim,
       },
       {
         id: 38,
@@ -69,7 +79,7 @@ const sobremesa = [
         description: 'Docinho de coco e açúcar, assado até ficar crocante e dourado.',
         price: 7.00,
         units: 15,
-        imageUrl: "../../assets/produtos/sobremesa/cocada.png",
+        imageUrl: imgCocada,
       },
       {
         id: 39,
@@ -77,7 +87,7 @@ const sobremesa = [
         description: 'Docinho de amendoim e açúcar, assado até ficar crocante e dourado.',
         price: 8.50,
         units: 12,
-        imageUrl: "../../assets/produtos/sobremesa/pacoca.png",
+        imageUrl: imgPacoca,
       },
 ];
 

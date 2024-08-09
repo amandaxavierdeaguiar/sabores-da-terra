@@ -5,6 +5,14 @@ import './produtos.css'
 import * as Icon from 'react-bootstrap-icons';
 // IMPORTACAO DO REACT USE CARD PARA INSERÇÃO DO PRODUTO NO CARRINHO
 import { useCart } from 'react-use-cart';
+// FOTOS PRATO PRINCIPAL 
+import imgParmegiana from '../../assets/produtos/pratoPrincipal/parmegiana.png';
+import imgBife from '../../assets/produtos/pratoPrincipal/bife-novilho.png';
+import imgCarneCouve from '../../assets/produtos/pratoPrincipal/carne-couve.png';
+import imgStrogonoff from '../../assets/produtos/pratoPrincipal/strogonoff.png';
+import imgHamburguerCarne from '../../assets/produtos/pratoPrincipal/hamburguer-carne.png';
+import imgHamburguerFrango from '../../assets/produtos/pratoPrincipal/hamburguer-frango.png';
+
 
 // MENU DE PRATO PRINCIPAL
 const menuPrincipal = [
@@ -13,7 +21,7 @@ const menuPrincipal = [
         name: 'Filé de Frango à Parmegiana',
         description: 'servido com arroz e legumes.',
         price: 18.00,
-        imageUrl: "../../assets/produtos/pratoPrincipal/parmegiana.png",
+        imageUrl: imgParmegiana,
       },
       {
         id: 20,
@@ -21,7 +29,7 @@ const menuPrincipal = [
         description: 'Bife de novilho macio, servido com arroz e legumes.',
         price: 20.00,
         units: 8,
-        imageUrl: "../../assets/produtos/pratoPrincipal/bife-novilho.png",
+        imageUrl: imgBife,
       },
       {
         id: 21,
@@ -29,7 +37,7 @@ const menuPrincipal = [
         description: 'Carne moída com couve, servido com arroz e legumes.',
         price: 15.00,
         units: 12,
-        imageUrl: "../../assets/produtos/pratoPrincipal/carne-couve.png",
+        imageUrl: imgCarneCouve,
       },
       {
         id: 22,
@@ -37,7 +45,7 @@ const menuPrincipal = [
         description: 'Strogonoff de carne, servido com arroz e legumes.',
         price: 18.00,
         units: 10,
-        imageUrl: "../../assets/produtos/pratoPrincipal/strogonoff.png",
+        imageUrl: imgStrogonoff,
       },
       {
         id: 23,
@@ -45,7 +53,7 @@ const menuPrincipal = [
         description: 'Carne de patinho, servido com batata frita e salada.',
         price: 12.00,
         units: 15,
-        imageUrl: "../../assets/produtos/pratoPrincipal/hamburguer-carne.png",
+        imageUrl: imgHamburguerCarne,
       },
       {
         id: 24,
@@ -53,7 +61,7 @@ const menuPrincipal = [
         description: 'Peito de frango, servido com batata frita e salada.',
         price: 10.00,
         units: 18,
-        imageUrl: "../../assets/produtos/pratoPrincipal/hamburguer-frango.png",
+        imageUrl: imgHamburguerFrango,
       },
 ];
 

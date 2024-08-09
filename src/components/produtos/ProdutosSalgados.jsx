@@ -6,6 +6,14 @@ import * as Icon from 'react-bootstrap-icons';
 // IMPORTACAO DO REACT USE CARD PARA INSERÇÃO DO PRODUTO NO CARRINHO
 import { useCart } from 'react-use-cart';
 
+// Fotos Salgados
+import imgBolinhoCaipira from '../../assets/produtos/salgados/bolinho-caipira.png';
+import imgCoxinhas from '../../assets/produtos/salgados/coxinhas.png';
+import imgQuibe from '../../assets/produtos/salgados/quibe.png';
+import imgEmpadinha from '../../assets/produtos/salgados/empadinha.png';
+import imgSalsicha from '../../assets/produtos/salgados/rolinho-salsichas.png';
+import imgQuiche from '../../assets/produtos/salgados/quiche.png';
+
 // MENU DE SALGADOS
 const produtos = [
     {
@@ -14,7 +22,7 @@ const produtos = [
         description: 'Massa de mandioca, recheado com queijo e presunto.',
         price: 8.00,
         units: 12,
-        imageUrl: "../../assets/produtos/salgados/bolinho-caipira.png",
+        imageUrl: imgBolinhoCaipira,
       },
       {
         id: 26,
@@ -22,7 +30,7 @@ const produtos = [
         description: 'Coxinha de frango, recheada com frango desfiado e catupiry.',
         price: 7.00,
         units: 15,
-        imageUrl: "../../assets/produtos/salgados/coxinhas.png",
+        imageUrl: imgCoxinhas,
       },
       {
         id: 27,
@@ -30,7 +38,7 @@ const produtos = [
         description: 'Quibe de carne, recheado com carne moída e especiarias.',
         price: 9.00,
         units: 10,
-        imageUrl: "../../assets/produtos/salgados/quibe.png",
+        imageUrl: imgQuibe,
       },
       {
         id: 28,
@@ -38,7 +46,7 @@ const produtos = [
         description: 'Recheadas com frango desfiado e catupiry.',
         price: 8.00,
         units: 12,
-        imageUrl: "../../assets/produtos/salgados/empadinha.png",
+        imageUrl: imgEmpadinha,
       },
       {
         id: 29,
@@ -46,7 +54,7 @@ const produtos = [
         description: 'Rolinho de salsicha frito, recheado com salsicha. Com ou sem queijo.',
         price: 6.00,
         units: 15,
-        imageUrl: "../../assets/produtos/salgados/rolinho-salsichas.png",
+        imageUrl: imgSalsicha,
       },
       {
         id: 30,
@@ -54,7 +62,7 @@ const produtos = [
         description: 'Mini quiches de queijo e presunto, ideais para um lanche rápido.',
         price: 10.00,
         units: 8,
-        imageUrl: "../../assets/produtos/salgados/quiche.png",
+        imageUrl: imgQuiche,
       },
 ];
 

@@ -5,6 +5,13 @@ import './produtos.css'
 import * as Icon from 'react-bootstrap-icons';
 // IMPORTACAO DO REACT USE CARD PARA INSERÇÃO DO PRODUTO NO CARRINHO
 import { useCart } from 'react-use-cart';
+// FOTO MASSAS
+import imgBolonhesa from'../../assets/produtos/pratoPrincipal/macarrao-bolonhesa.png'
+import imgMacarrao from'../../assets/produtos/pratoPrincipal/macarrao-alho.png'
+import imgEspinafre from'../../assets/produtos/pratoPrincipal/ravioli-espinafre.png'
+import imgGorgonzola from'../../assets/produtos/pratoPrincipal/ravioli-gorgonzola.png'
+import imgNhoqueCarne from'../../assets/produtos/pratoPrincipal/nhoque-carne.png'
+import imgNhoque from'../../assets/produtos/pratoPrincipal/nhoque-puro.png'
 
 // MENU DE PRATO PRINCIPAL MASSAS
 const menuMassas = [
@@ -14,7 +21,7 @@ const menuMassas = [
         description: 'Com carne moída e molho de tomate.',
         price: 12.00,
         units: 15,
-        imageUrl: "../../assets/produtos/pratoPrincipal/macarrao-bolonhesa.png",
+        imageUrl: imgBolonhesa,
       },
       {
         id: 14,
@@ -22,7 +29,7 @@ const menuMassas = [
         description: 'Macarrão alho e óleo, servido com alho e óleo.',
         price: 10.00,
         units: 18,
-        imageUrl: "../../assets/produtos/pratoPrincipal/macarrao-alho.png",
+        imageUrl: imgMacarrao,
       },
       {
         id: 15,
@@ -30,7 +37,7 @@ const menuMassas = [
         description: 'Ravioli de espinafre, servido com molho de queijo.',
         price: 15.00,
         units: 12,
-        imageUrl: "../../assets/produtos/pratoPrincipal/ravioli-espinafre.png",
+        imageUrl: imgEspinafre,
       },
       {
         id: 16,
@@ -38,7 +45,7 @@ const menuMassas = [
         description: 'Ravioli com gorgonzola, servido com molho de queijo.',
         price: 18.00,
         units: 10,
-        imageUrl: "../../assets/produtos/pratoPrincipal/ravioli-gorgonzola.png",
+        imageUrl: imgGorgonzola,
       },
       {
         id: 17,
@@ -46,7 +53,7 @@ const menuMassas = [
         description: 'Nhoque de carne, servido com molho de tomate.',
         price: 12.00,
         units: 15,
-        imageUrl: "../../assets/produtos/pratoPrincipal/nhoque-carne.png",
+        imageUrl: imgNhoqueCarne,
       },
       {
         id: 18,
@@ -54,7 +61,7 @@ const menuMassas = [
         description: 'Servido com o delicioso molho de queijo da casa.',
         price: 10.00,
         units: 18,
-        imageUrl: "../../assets/produtos/pratoPrincipal/nhoque-puro.png",
+        imageUrl: imgNhoque,
       },
 ];
 
