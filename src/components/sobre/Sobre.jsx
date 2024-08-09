@@ -26,5 +26,3 @@ function Sobre(){
 }
 
 export default Sobre
-
-{/*Além disso, oferecemos um serviço de delivery rápido e eficiente, para que você possa desfrutar de nossas delícias no conforto da sua casa.*/}
