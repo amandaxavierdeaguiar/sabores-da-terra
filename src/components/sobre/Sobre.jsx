@@ -1,6 +1,6 @@
 import {Container} from 'react-bootstrap'
 import './sobre.css'
-import Reserva from '/components/formulario/Reserva.jsx'
+import Reserva from '../formulario/Reserva';
 
 function Sobre(){
 

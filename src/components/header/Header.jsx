@@ -1,14 +1,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container, Nav, Navbar} from 'react-bootstrap'
-import LoginCadastro from '/components/login/Login.jsx'
-import Carrinho from '/components/carrinhoCompras/CarrinhoCompras.jsx'
-
-import './header.css'
+import LoginCadastro from '../login/Login.jsx'
+import Carrinho from '../carrinhoCompras/CarrinhoCompras.jsx'
+import logo from "../../assets/logo.png";
+import './header.css';
 
 function Header() {
 
     // Importando logo
-    const logo = "/assets/logo.png";
+    /*const logo = "/assets/logo.png";*/
 
     return (
         <Navbar expand="sm" fixed="top" className="bg-body-tertiary m-0 navbar-sm"> 
