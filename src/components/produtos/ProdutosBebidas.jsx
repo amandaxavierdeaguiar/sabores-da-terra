@@ -6,6 +6,20 @@ import * as Icon from 'react-bootstrap-icons';
 // IMPORTACAO DO REACT USE CARD PARA INSERÇÃO DO PRODUTO NO CARRINHO
 import { useCart } from 'react-use-cart';
 
+// FOTO PRODUTOS
+import imgAgua from '../../assets/produtos/bebidas/agua.png';
+import imgGuarana from '../../assets/produtos/bebidas/guarana.png';
+import imgCoca from '../../assets/produtos/bebidas/coca-cola.png';
+import imgCocaZero from '../../assets/produtos/bebidas/coca-zero.png';
+import imgSumoLaranja from '../../assets/produtos/bebidas/suco-laranja.png';
+import imgFanta from "../../assets/produtos/bebidas/fanta.png";
+import imgPepsi from "../../assets/produtos/bebidas/pepsi.png";
+import imgIceTea from "../../assets/produtos/bebidas/ice-tea.png";
+import imgCaipirinha from "../../assets/produtos/bebidas/caipirinha.png";
+import imgHeineken from "../../assets/produtos/bebidas/heineken.png";
+import imgSuperBock from "../../assets/produtos/bebidas/super-bock.png";
+import imgStout from "../../assets/produtos/bebidas/stout.png";
+
 // MENU BEBIDAS
 const bebidas = [
     {
@@ -14,7 +28,7 @@ const bebidas = [
         "description": "Água mineral",
         "price": 2.00,
         "size": "500ml",
-        imageUrl: "../../assets/produtos/bebidas/agua.png",
+        imageUrl: imgAgua,
       },
     {
         "id": 2,
@@ -22,7 +36,7 @@ const bebidas = [
         "description": "Refrigerante de guarana",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "../../assets/produtos/bebidas/guarana.png",
+        imageUrl: imgGuarana,
       },
       {
         "id": 3,
@@ -30,7 +44,7 @@ const bebidas = [
         "description": "Refrigerante de cola",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "../../assets/produtos/bebidas/coca-cola.png",
+        imageUrl: imgCoca,
       },
       {
         "id": 4,
@@ -38,7 +52,7 @@ const bebidas = [
         "description": "Refrigerante de cola",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "../../assets/produtos/bebidas/coca-zero.png",
+        imageUrl: imgCocaZero,
       },
       {
         "id": 5,
@@ -46,7 +60,7 @@ const bebidas = [
         "description": "Sabor Laranja",
         "price": 2.50,
         "size": "300ml",
-        imageUrl: "../../assets/produtos/bebidas/suco-laranja.png",
+        imageUrl: imgSumoLaranja,
       },
       {
         "id": 6,
@@ -54,7 +68,7 @@ const bebidas = [
         "description": "Refrigerante de frutas",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "../../assets/produtos/bebidas/fanta.png",
+        imageUrl: imgFanta,
       },
       {
         "id": 7,
@@ -62,7 +76,7 @@ const bebidas = [
         "description": "Refrigerante Pepsi",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "../../assets/produtos/bebidas/pepsi.png",
+        imageUrl: imgPepsi,
       },
       {
         "id": 8,
@@ -70,7 +84,7 @@ const bebidas = [
         "description": "Ice Tea sabor limão",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "../../assets/produtos/bebidas/ice-tea.png",
+        imageUrl: imgIceTea,
       },
       {
         "id": 9,
@@ -78,7 +92,7 @@ const bebidas = [
         "description": "Cachaça, limão e açúcar",
         "price": 8.00,
         "size": "300ml",
-        imageUrl: "../../assets/produtos/bebidas/caipirinha.png",
+        imageUrl: imgCaipirinha,
       },
       {
         "id": 10,
@@ -86,7 +100,7 @@ const bebidas = [
         "description": "Cerveja holandesa",
         "price": 3.00,
         "size": "330ml",
-        imageUrl: "../../assets/produtos/bebidas/heineken.png",
+        imageUrl: imgHeineken,
       },
       {
         "id": 11,
@@ -94,7 +108,7 @@ const bebidas = [
         "description": "Cerveja portuguesa",
         "price": 2.50,
         "size": "330ml",
-        imageUrl: "../../assets/produtos/bebidas/super-bock.png",
+        imageUrl: imgSuperBock,
       },
       {
         "id": 12,
@@ -102,7 +116,7 @@ const bebidas = [
         "description": "Cerveja portuguesa",
         "price": 2.50,
         "size": "330ml",
-        imageUrl: "../../assets/produtos/bebidas/stout.png",
+        imageUrl: imgStout,
       },
 ];
 
