@@ -5,11 +5,11 @@ import Footer from "../../components/footer/Footer"
 import './galeriaFotos.css'
 import Reserva from '../../components/formulario/Reserva.jsx'
 //Fotos Galeria
-import feijoada from './assets/galeria/feijoada-brasileira.png';
-import festivalCoxinha from './assets/galeria/festival-coxinha.png';
-import restaurante from './assets/galeria/restaurant.png';
-import restaurante2 from './assets/galeria/restaurant2.png';
-import restaurante3 from './assets/galeria/restaurant3.png';
+import feijoada from '../../assets/galeria/feijoada-brasileira.png';
+import festivalCoxinha from '../../assets/galeria/festival-coxinha.png';
+import restaurante from '../../assets/galeria/restaurant.png';
+import restaurante2 from '../../assets/galeria/restaurant2.png';
+import restaurante3 from '../../assets/galeria/restaurant3.png';
 
 function GaleriaFotos() {
     
