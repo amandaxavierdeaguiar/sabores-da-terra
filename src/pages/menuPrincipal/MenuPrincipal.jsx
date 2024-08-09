@@ -18,9 +18,6 @@ import bandeira from "../../assets/menuprincipal/bandeira1.png";
 import { Link } from 'react-router-dom';
 
 function MenuPrincipal(){
-    // CODIGO HTML RODRIGO
-    
-    
 
     return(
         <body className='bodyprincipal'>
