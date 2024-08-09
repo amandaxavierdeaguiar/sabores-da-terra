@@ -14,7 +14,7 @@ const bebidas = [
         "description": "Água mineral",
         "price": 2.00,
         "size": "500ml",
-        imageUrl: "/assets/produtos/bebidas/agua.png",
+        imageUrl: "../../assets/produtos/bebidas/agua.png",
       },
     {
         "id": 2,
@@ -22,7 +22,7 @@ const bebidas = [
         "description": "Refrigerante de guarana",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "/assets/produtos/bebidas/guarana.png",
+        imageUrl: "../../assets/produtos/bebidas/guarana.png",
       },
       {
         "id": 3,
@@ -30,7 +30,7 @@ const bebidas = [
         "description": "Refrigerante de cola",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "/assets/produtos/bebidas/coca-cola.png",
+        imageUrl: "../../assets/produtos/bebidas/coca-cola.png",
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@ const bebidas = [
         "description": "Refrigerante de cola",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "/assets/produtos/bebidas/coca-zero.png",
+        imageUrl: "../../assets/produtos/bebidas/coca-zero.png",
       },
       {
         "id": 5,
@@ -46,7 +46,7 @@ const bebidas = [
         "description": "Sabor Laranja",
         "price": 2.50,
         "size": "300ml",
-        imageUrl: "/assets/produtos/bebidas/suco-laranja.png",
+        imageUrl: "../../assets/produtos/bebidas/suco-laranja.png",
       },
       {
         "id": 6,
@@ -54,7 +54,7 @@ const bebidas = [
         "description": "Refrigerante de frutas",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "/assets/produtos/bebidas/fanta.png",
+        imageUrl: "../../assets/produtos/bebidas/fanta.png",
       },
       {
         "id": 7,
@@ -62,7 +62,7 @@ const bebidas = [
         "description": "Refrigerante Pepsi",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "/assets/produtos/bebidas/pepsi.png",
+        imageUrl: "../../assets/produtos/bebidas/pepsi.png",
       },
       {
         "id": 8,
@@ -70,7 +70,7 @@ const bebidas = [
         "description": "Ice Tea sabor limão",
         "price": 2.50,
         "size": "350ml",
-        imageUrl: "/assets/produtos/bebidas/ice-tea.png",
+        imageUrl: "../../assets/produtos/bebidas/ice-tea.png",
       },
       {
         "id": 9,
@@ -78,7 +78,7 @@ const bebidas = [
         "description": "Cachaça, limão e açúcar",
         "price": 8.00,
         "size": "300ml",
-        imageUrl: "/assets/produtos/bebidas/caipirinha.png",
+        imageUrl: "../../assets/produtos/bebidas/caipirinha.png",
       },
       {
         "id": 10,
@@ -86,7 +86,7 @@ const bebidas = [
         "description": "Cerveja holandesa",
         "price": 3.00,
         "size": "330ml",
-        imageUrl: "/assets/produtos/bebidas/heineken.png",
+        imageUrl: "../../assets/produtos/bebidas/heineken.png",
       },
       {
         "id": 11,
@@ -94,7 +94,7 @@ const bebidas = [
         "description": "Cerveja portuguesa",
         "price": 2.50,
         "size": "330ml",
-        imageUrl: "/assets/produtos/bebidas/super-bock.png",
+        imageUrl: "../../assets/produtos/bebidas/super-bock.png",
       },
       {
         "id": 12,
@@ -102,7 +102,7 @@ const bebidas = [
         "description": "Cerveja portuguesa",
         "price": 2.50,
         "size": "330ml",
-        imageUrl: "/assets/produtos/bebidas/stout.png",
+        imageUrl: "../../assets/produtos/bebidas/stout.png",
       },
 ];
 
